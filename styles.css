@@ -136,7 +136,7 @@ body {
   background: #333;
 }
 /* Responsive Styles for Phones */
-@media screen and (max-width: 768px) {
+@media  (max-width: 768px) {
   /* Container */
   .container {
     width: 90%;
@@ -162,7 +162,7 @@ body {
   /* Hero Section */
   .hero {
     height: 80vh; /* Reduce height for smaller screens */
-    background-attachment: fixed; 
+    background-attachment: fixed; }
   .hero-content {
     padding: 20px;
   }
@@ -180,8 +180,8 @@ body {
 
   /* Contact Form */
   .contact-container {
-    margin: 50px 20px;
-    padding: 30px;
+    margin: 20px;
+   
   }
   .contact-container form input,
   .contact-container form textarea {
@@ -192,4 +192,6 @@ body {
   ::-webkit-scrollbar {
     width: 5px;
     }
-}
+  }
+
+
